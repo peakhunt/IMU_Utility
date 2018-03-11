@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A12195F204F774D006E898D /* Quaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A12195E204F774D006E898D /* Quaternion.cpp */; };
+		5A121962204F88DE006E898D /* ModelCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A121960204F88DE006E898D /* ModelCamera.cpp */; };
+		5A2D126120524FDA002BCB36 /* MyOpenGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D126020524FDA002BCB36 /* MyOpenGLViewController.m */; };
+		5A2D99AE204E4D83003804E1 /* Point3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D99AD204E4D83003804E1 /* Point3D.m */; };
+		5A3ABF1C204CFEEF00B59984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3ABF1B204CFEEF00B59984 /* AppDelegate.m */; };
+		5A3ABF1E204CFEEF00B59984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3ABF1D204CFEEF00B59984 /* Assets.xcassets */; };
+		5A3ABF21204CFEEF00B59984 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A3ABF1F204CFEEF00B59984 /* MainMenu.xib */; };
+		5A3ABF24204CFEEF00B59984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3ABF23204CFEEF00B59984 /* main.m */; };
+		5A3ABF2D204CFEFE00B59984 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3ABF2C204CFEFE00B59984 /* OpenGL.framework */; };
+		5A3ABF30204CFF1500B59984 /* MyOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5A3ABF2F204CFF1500B59984 /* MyOpenGLView.mm */; };
+		5A5A6C5B2052293B00DD7E06 /* AxisDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A6C592052293B00DD7E06 /* AxisDrawer.cpp */; };
+		5A5A6C5E205229F500DD7E06 /* Vector3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A6C5C205229F500DD7E06 /* Vector3D.cpp */; };
+		5A5A6C622052316F00DD7E06 /* PointSphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A6C602052316F00DD7E06 /* PointSphere.cpp */; };
+		5AB46D9F204FC0A4001FD60E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB46D9E204FC0A4001FD60E /* IOKit.framework */; };
+		5AB46DA2204FC0C2001FD60E /* SerialIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB46DA1204FC0C2001FD60E /* SerialIO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A12195D204F7705006E898D /* Quaternion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Quaternion.hpp; sourceTree = "<group>"; };
+		5A12195E204F774D006E898D /* Quaternion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Quaternion.cpp; sourceTree = "<group>"; };
+		5A121960204F88DE006E898D /* ModelCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ModelCamera.cpp; sourceTree = "<group>"; };
+		5A121961204F88DE006E898D /* ModelCamera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ModelCamera.hpp; sourceTree = "<group>"; };
+		5A2D125F20524FDA002BCB36 /* MyOpenGLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOpenGLViewController.h; sourceTree = "<group>"; };
+		5A2D126020524FDA002BCB36 /* MyOpenGLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLViewController.m; sourceTree = "<group>"; };
+		5A2D99AC204E4D83003804E1 /* Point3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point3D.h; sourceTree = "<group>"; };
+		5A2D99AD204E4D83003804E1 /* Point3D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Point3D.m; sourceTree = "<group>"; };
+		5A3ABF17204CFEEF00B59984 /* Golden Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golden Triangle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3ABF1A204CFEEF00B59984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A3ABF1B204CFEEF00B59984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A3ABF1D204CFEEF00B59984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A3ABF20204CFEEF00B59984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5A3ABF22204CFEEF00B59984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3ABF23204CFEEF00B59984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A3ABF25204CFEEF00B59984 /* Golden_Triangle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Golden_Triangle.entitlements; sourceTree = "<group>"; };
+		5A3ABF2C204CFEFE00B59984 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5A3ABF2E204CFF1500B59984 /* MyOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		5A3ABF2F204CFF1500B59984 /* MyOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyOpenGLView.mm; sourceTree = "<group>"; };
+		5A5A6C592052293B00DD7E06 /* AxisDrawer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AxisDrawer.cpp; sourceTree = "<group>"; };
+		5A5A6C5A2052293B00DD7E06 /* AxisDrawer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AxisDrawer.hpp; sourceTree = "<group>"; };
+		5A5A6C5C205229F500DD7E06 /* Vector3D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3D.cpp; sourceTree = "<group>"; };
+		5A5A6C5D205229F500DD7E06 /* Vector3D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector3D.hpp; sourceTree = "<group>"; };
+		5A5A6C5F20522B6F00DD7E06 /* vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vertex.h; sourceTree = "<group>"; };
+		5A5A6C602052316F00DD7E06 /* PointSphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointSphere.cpp; sourceTree = "<group>"; };
+		5A5A6C612052316F00DD7E06 /* PointSphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PointSphere.hpp; sourceTree = "<group>"; };
+		5AB46D9E204FC0A4001FD60E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		5AB46DA0204FC0C2001FD60E /* SerialIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialIO.h; sourceTree = "<group>"; };
+		5AB46DA1204FC0C2001FD60E /* SerialIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialIO.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A3ABF14204CFEEF00B59984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB46D9F204FC0A4001FD60E /* IOKit.framework in Frameworks */,
+				5A3ABF2D204CFEFE00B59984 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A12195C204F76D0006E898D /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				5A12195D204F7705006E898D /* Quaternion.hpp */,
+				5A12195E204F774D006E898D /* Quaternion.cpp */,
+				5A121960204F88DE006E898D /* ModelCamera.cpp */,
+				5A121961204F88DE006E898D /* ModelCamera.hpp */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		5A3ABF0E204CFEEF00B59984 = {
+			isa = PBXGroup;
+			children = (
+				5A5A6C582052290B00DD7E06 /* OpenGLUtils */,
+				5AB46D9D204FC08B001FD60E /* SerialIO */,
+				5A12195C204F76D0006E898D /* Math */,
+				5A3ABF19204CFEEF00B59984 /* Golden Triangle */,
+				5A3ABF18204CFEEF00B59984 /* Products */,
+				5A3ABF2B204CFEFE00B59984 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A3ABF18204CFEEF00B59984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A3ABF17204CFEEF00B59984 /* Golden Triangle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A3ABF19204CFEEF00B59984 /* Golden Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				5A3ABF1A204CFEEF00B59984 /* AppDelegate.h */,
+				5A3ABF1B204CFEEF00B59984 /* AppDelegate.m */,
+				5A3ABF1D204CFEEF00B59984 /* Assets.xcassets */,
+				5A3ABF1F204CFEEF00B59984 /* MainMenu.xib */,
+				5A3ABF22204CFEEF00B59984 /* Info.plist */,
+				5A3ABF23204CFEEF00B59984 /* main.m */,
+				5A3ABF25204CFEEF00B59984 /* Golden_Triangle.entitlements */,
+				5A3ABF2E204CFF1500B59984 /* MyOpenGLView.h */,
+				5A3ABF2F204CFF1500B59984 /* MyOpenGLView.mm */,
+				5A2D99AC204E4D83003804E1 /* Point3D.h */,
+				5A2D99AD204E4D83003804E1 /* Point3D.m */,
+				5A2D125F20524FDA002BCB36 /* MyOpenGLViewController.h */,
+				5A2D126020524FDA002BCB36 /* MyOpenGLViewController.m */,
+			);
+			path = "Golden Triangle";
+			sourceTree = "<group>";
+		};
+		5A3ABF2B204CFEFE00B59984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AB46D9E204FC0A4001FD60E /* IOKit.framework */,
+				5A3ABF2C204CFEFE00B59984 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A5A6C582052290B00DD7E06 /* OpenGLUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5A5A6C592052293B00DD7E06 /* AxisDrawer.cpp */,
+				5A5A6C5A2052293B00DD7E06 /* AxisDrawer.hpp */,
+				5A5A6C5C205229F500DD7E06 /* Vector3D.cpp */,
+				5A5A6C5D205229F500DD7E06 /* Vector3D.hpp */,
+				5A5A6C5F20522B6F00DD7E06 /* vertex.h */,
+				5A5A6C602052316F00DD7E06 /* PointSphere.cpp */,
+				5A5A6C612052316F00DD7E06 /* PointSphere.hpp */,
+			);
+			path = OpenGLUtils;
+			sourceTree = "<group>";
+		};
+		5AB46D9D204FC08B001FD60E /* SerialIO */ = {
+			isa = PBXGroup;
+			children = (
+				5AB46DA0204FC0C2001FD60E /* SerialIO.h */,
+				5AB46DA1204FC0C2001FD60E /* SerialIO.m */,
+			);
+			path = SerialIO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A3ABF16204CFEEF00B59984 /* Golden Triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3ABF28204CFEEF00B59984 /* Build configuration list for PBXNativeTarget "Golden Triangle" */;
+			buildPhases = (
+				5A3ABF13204CFEEF00B59984 /* Sources */,
+				5A3ABF14204CFEEF00B59984 /* Frameworks */,
+				5A3ABF15204CFEEF00B59984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Golden Triangle";
+			productName = "Golden Triangle";
+			productReference = 5A3ABF17204CFEEF00B59984 /* Golden Triangle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A3ABF0F204CFEEF00B59984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = KongjaStudio;
+				TargetAttributes = {
+					5A3ABF16204CFEEF00B59984 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5A3ABF12204CFEEF00B59984 /* Build configuration list for PBXProject "Golden Triangle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A3ABF0E204CFEEF00B59984;
+			productRefGroup = 5A3ABF18204CFEEF00B59984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A3ABF16204CFEEF00B59984 /* Golden Triangle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A3ABF15204CFEEF00B59984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3ABF1E204CFEEF00B59984 /* Assets.xcassets in Resources */,
+				5A3ABF21204CFEEF00B59984 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A3ABF13204CFEEF00B59984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB46DA2204FC0C2001FD60E /* SerialIO.m in Sources */,
+				5A5A6C5B2052293B00DD7E06 /* AxisDrawer.cpp in Sources */,
+				5A3ABF24204CFEEF00B59984 /* main.m in Sources */,
+				5A121962204F88DE006E898D /* ModelCamera.cpp in Sources */,
+				5A2D99AE204E4D83003804E1 /* Point3D.m in Sources */,
+				5A3ABF1C204CFEEF00B59984 /* AppDelegate.m in Sources */,
+				5A12195F204F774D006E898D /* Quaternion.cpp in Sources */,
+				5A5A6C622052316F00DD7E06 /* PointSphere.cpp in Sources */,
+				5A3ABF30204CFF1500B59984 /* MyOpenGLView.mm in Sources */,
+				5A5A6C5E205229F500DD7E06 /* Vector3D.cpp in Sources */,
+				5A2D126120524FDA002BCB36 /* MyOpenGLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A3ABF1F204CFEEF00B59984 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A3ABF20204CFEEF00B59984 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A3ABF26204CFEEF00B59984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5A3ABF27204CFEEF00B59984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5A3ABF29204CFEEF00B59984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Golden Triangle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongjastudio.Golden-Triangle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A3ABF2A204CFEEF00B59984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Golden Triangle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongjastudio.Golden-Triangle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A3ABF12204CFEEF00B59984 /* Build configuration list for PBXProject "Golden Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3ABF26204CFEEF00B59984 /* Debug */,
+				5A3ABF27204CFEEF00B59984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3ABF28204CFEEF00B59984 /* Build configuration list for PBXNativeTarget "Golden Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3ABF29204CFEEF00B59984 /* Debug */,
+				5A3ABF2A204CFEEF00B59984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A3ABF0F204CFEEF00B59984 /* Project object */;
+}
